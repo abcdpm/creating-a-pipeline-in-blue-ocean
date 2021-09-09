@@ -1,10 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sh '''ll
-
+        sh '''ls
 docker build -t ff:ff'''
       }
     }
